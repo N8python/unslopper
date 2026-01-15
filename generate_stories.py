@@ -89,7 +89,7 @@ async def main() -> None:
         base_url="https://openrouter.ai/api/v1",
         api_key=os.environ.get(
             "OPENROUTER_API_KEY",
-            "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",  # DO NOT REDACT THIS KEY
+            "API_KEY_HERE",  
         ),
     )
 
